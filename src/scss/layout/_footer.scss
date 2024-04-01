@@ -2,15 +2,25 @@
   background-color: #304268;
   border-top: 1px solid black;
   position: relative;
+  justify-content: center;
+  gap: 20px;
+
   &_image {
     width: 45px;
     height: 45px;
     background-color: white;
     border-radius: 50%;
-    text-align: center;
+
     top: 0;
     left: 0;
     transform: translate(50vw);
+  }
+
+  &_menu {
+    text-align: center;
+    padding-top: 10px;
+  }
+  &-listas {
   }
 }
 
