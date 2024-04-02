@@ -4,9 +4,18 @@
   display: grid;
   grid-template-columns: 1fr;
   text-align: center;
+  @media screen and (width >768px) {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
   &_post {
     padding-top: 10px;
     padding-bottom: 10px;
+    &-title {
+      @media screen and (width>768px) {
+        grid-column: span 3;
+      }
+    }
   }
 }
