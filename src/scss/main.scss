@@ -9,8 +9,9 @@
 */
 
 @import "./core/reset";
+@import "./core/variables";
 @import "./layout/nav";
 @import "./layout/header";
 @import "./layout/footer";
-@import "./layout/postinsomnia.scss";
+@import "./layout/postinsomnia";
 @import "./layout/postreassons";

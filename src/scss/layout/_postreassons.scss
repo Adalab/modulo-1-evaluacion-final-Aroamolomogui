@@ -1,5 +1,12 @@
-.main {
-  height: 50vh;
-  background-color: #40e0d0;
-  padding: 15px;
+.articles {
+  background-color: rgba(20, 230, 241, 0.15);
+  padding-left: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+
+  &_post {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
